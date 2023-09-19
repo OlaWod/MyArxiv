@@ -1,11 +1,12 @@
 let titles_type = ["Dataset", "Survey", "Review", "Overview",
-                    "Text-to-Speech", "Speech Synthesis", "Voice Conversion"];
+                    "Text-to-Speech", "Speech Synthesis", "Voice Conversion", "Vocoder"];
 let titles_model = []; // ["BERT", "GPT", "Transformer"];
 let titles_method = []; // ["Pre-train", "Pretrain", "Prompt", "Self-Supervised"];
 let titles =  titles_model + titles_method + titles_type;
 let authors_array = ["Yann LeCun", "Geoffrey Hinton", "Yoshua Bengio",
                     "Yossi Adi", "Wei-Ning Hsu", 
                     "Benjamin van Niekerk", "Herman Kamper",
+                    "Jaehyeon Kim", "Jungil Kong", "Sang-gil Lee", "Sungwon Kim",
                     "Shinji Watanabe", "Tomoki Toda", "Heiga Zen", "Xin Wang", "Wen-Chin Huang",
                     "Ye Jia", "Yuxuan Wang", "Yi Ren", "Xu Tan", "Dan Su", "Dong Yu",
                     "Lei Xie", "Kai Yu", "Zhiyong Wu", "Zhou Zhao", "Helen Meng", "Hung-yi Lee"
@@ -15,7 +16,8 @@ let conferences = [
     "ICASSP", "INTERSPEECH",
     "ICLR", "NeurIPS", "NIPS", "ICML", 
     "ACL", "EMNLP", "NAACL",
-    "AAAI", "IJCAI", "ACM MM"
+    "AAAI", "IJCAI", "ACM MM",
+    "TASLP", "SLT"
     // AI
     // "AAAI", "AAMAS", "ACM MM", "AISTATS", "ALT", "CEC", "ECAI", "FUZZ IEEE", "GECCO", "ICANN", "ICAPS", "ICCBR", "ICONIP", "ICRA", "ICTAI", "IJCAI", "IJCNN", "IROS", "KR", "KSEM", "SIGGRAPH", "STOC", "UAI", "PPSN", "PRICAI", "TAAI",
     // CV
